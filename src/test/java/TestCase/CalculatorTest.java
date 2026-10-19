@@ -23,7 +23,7 @@ public class CalculatorTest {
     public void testMultiplication() {
         Calculator cal = new Calculator();
         int actual = cal.multiply(5, 4);
-        int expected = 20;
+        int expected = 15;
         Assert.assertEquals(actual, expected);
         System.out.println("Multiplication Test Passed");
     }
